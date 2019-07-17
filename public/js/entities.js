@@ -2,6 +2,7 @@ import Entity from "./Entity.js";
 import { loadMarioSprite } from "./sprites.js";
 
 export function createMario() {
+  // creates mario
   return loadMarioSprite().then(sprite => {
     const mario = new Entity();
 
